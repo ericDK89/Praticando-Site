@@ -1,0 +1,39 @@
+.main{
+    background-color: #000;
+    color: #e0e0e0;
+    padding: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.first-p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 95px;
+    letter-spacing: 5px;
+}
+
+.main-p{
+    margin: 50px auto 75px;
+    line-height: 10px;
+}
+
+.button-body{
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    background-color: #2D7DD2;
+    color: #e0e0e0;
+    font-weight: bold;
+    border-style: none;
+    transition: 0.3s;
+}
+
+.button-body:hover{
+    box-shadow: 0 0 0.75em #78ACE2;
+    letter-spacing: 2px;
+}

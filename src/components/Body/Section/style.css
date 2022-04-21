@@ -1,0 +1,40 @@
+.h2-section{
+    font-size: 90px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 30px;
+    margin: 150px auto 60px;
+}
+
+.button-card{
+    border-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.button-card:hover{
+    box-shadow: 0 0 1em #040303;
+}
+
+.button-card:active{
+    box-shadow: 0 0 1em #040303;
+}
+
+img{
+    width: 110px;
+}
+
+.card-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.text-img{
+    text-align: center;
+    margin-top: 60px;
+    line-height: 15px;
+}
