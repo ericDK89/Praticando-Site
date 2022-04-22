@@ -9,6 +9,7 @@
 .first-p{
     font-weight: bold;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 h1{
@@ -36,4 +37,35 @@ h1{
 .button-body:hover{
     box-shadow: 0 0 0.75em #78ACE2;
     letter-spacing: 2px;
+}
+
+/* #### */
+
+@media (max-width: 600px)
+{
+    .main{
+        padding: 20px;
+    }
+
+    .first-p{
+        font-weight: normal;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+
+    h1{
+        font-size: 40px;
+        line-height: normal;
+        letter-spacing: normal;
+        max-width: 350px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-p{
+        line-height: normal;
+        letter-spacing: normal;
+        margin: 50px auto 50px;
+    }
 }

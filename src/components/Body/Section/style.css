@@ -1,3 +1,6 @@
+section{
+}
+
 .h2-section{
     font-size: 90px;
     letter-spacing: 1px;
@@ -18,10 +21,6 @@
     box-shadow: 0 0 1em #040303;
 }
 
-.button-card:active{
-    box-shadow: 0 0 1em #040303;
-}
-
 img{
     width: 110px;
 }
@@ -30,6 +29,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 140px;
 }
 
@@ -37,4 +37,31 @@ img{
     text-align: center;
     margin-top: 60px;
     line-height: 15px;
+}
+
+/* #### */
+
+@media (max-width: 600px){
+    
+    .h2-section{
+        font-size: 50px;
+        margin: 15px auto 0px;
+    }
+
+    img{
+        width: 90px;
+    }
+
+    .card-imgs{
+        gap: 20px;
+    }
+
+    .text-img{
+        text-align: center;
+        margin-top: 40px;
+        line-height: normal;
+        max-width: 300px;
+        width: 100%;
+        margin: 50px auto;
+    }
 }

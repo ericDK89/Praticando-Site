@@ -19,8 +19,11 @@ export default function Footer() {
         </p>   
         </div>
       <div className='iframe'>
-      <iframe width="800" height="500" src="https://www.youtube.com/embed/1ZoKXazOhzU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe width="800" height="500" src="https://www.youtube.com/embed/-5KAN9_CzSA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
+        <div className='madeBy'>
+          <p className='madeBy-p'>Made by Eric 🌌</p> 
+        </div>
     </footer>
   )
 }
